@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+    <div class="relative">
+        <div class="header">
+            <ul class="header__list-item">
+                <li class="header--item"><a href="#about">About</a></li>
+                <li class="header--item"><a href="#skill">Skill</a></li>
+                <li class="header--item"><a href="#project">Project</a></li>
+                <li class="header--item"><a href="#contact">Contact</a></li>
+            </ul>
+            <!-- checkbox that hidden -->
+            <input hidden type="checkbox" id="mobile-search-checkbox" class="nav__input">
+            <!-- bars icon when use on mobile -->
+            <label for="mobile-search-checkbox" class="resposive-header__icon"><i class="fa-solid fa-bars"></i></label>
+            <ul class="resposive-header__list-item">
+                <!-- close icon -->
+                <label for="mobile-search-checkbox" class="resposive-header--close"><i class="fa-solid fa-xmark"></i></label>
+                <li class="resposive-header--item"><a href="#about">About</a><i class="fa-solid fa-chevron-right"></i></li>
+                <li class="resposive-header--item"><a href="#skill">Skill</a><i class="fa-solid fa-chevron-right"></i></li>
+                <li class="resposive-header--item"><a href="#project">Project</a><i class="fa-solid fa-chevron-right"></i></li>
+                <li class="resposive-header--item"><a href="#contact">Contact</a><i class="fa-solid fa-chevron-right"></i></li>
+            </ul>
+            <!-- layout -->
+            <label for="mobile-search-checkbox" class="nav__overlay"></label>
+        </div>
+    </div>
+
+    <div class="homepage">
+        <img class="homepage-img" src="assets/img/minhPhoto.jpg" alt="">
+        <h1 class="homepage-name">Bui Minh</h1>
+        <p class="homepage-job">.Net Developer</p>
+    </div>
+
+    <div class="main">
+        <div class="grid wide">
+            <div class="about row" id="about"> 
+                <div class="col l-4 m-12">
+                    <div class="about--back-photo">
+                        <img class="about--photo" src="assets/img/minhVinhDanh.jpg" alt="">
+                    </div>
+                </div>
+                <div class="about-info col l-7 m-12">
+                    <p class="sub-title">Discover</p>
+                    <h1 class="about--title">About me</h1>
+                    <p>I'm a Web developer who works with both the front and back ends of a website. I'm currently studying at the University of Greenwich here. I have already had some personal projects and a project in school. I have lived in Da Nang so far. I have already had some personal projects and a project in school. I have lived in Da Nang so far.</p>
+                    <div class="about--info-detail">
+                        <ul class="info-detail-1">
+                            <li>Name: <span class="info-detail-des">Bui Quang Minh</span></li>
+                            <li>Phone: <span class="info-detail-des">0706162561</span></li>
+                            <li>Age: <span class="info-detail-des">21 years old</span></li>
+                            <li>Address: <span class="info-detail-des">Da Nang City</span></li>
+                        </ul>
+                        <ul class="info-detail-2">
+                            <li>Name: <span class="info-detail-des">Bui Quang Minh</span></li>
+                            <li>Phone: <span class="info-detail-des">0706162561</span></li>
+                            <li>Age: <span class="info-detail-des">21 years old</span></li>
+                            <li>Address: <span class="info-detail-des">Da Nang City</span></li>
+                        </ul>
+                    </div>
+                    <a target="_blank" href="assets/file/Bui Minh CV Resume.pdf"><input class="about--btn-download-CV" value="Download CV" type="submit"></a>
+                </div>
+            </div>
+
+            <div class="skill" id="skill">
+                <p class="sub-title">SKILL</p>
+                <h1 class="skill--title">My relevant skills</h1>
+                <ul class="skill__btn">
+                    <li class="active" data-tab="technical">Technical</li>
+                    <li data-tab="soft">Soft</li>
+                </ul>
+                <div class="skill--detail-list skill--detail-technical-list row active">
+                    <div class="skill--detail-item col l-2-4 m-3">
+                        <i class="fa-solid fa-database"></i>
+                        <p class="skill-detail--title">Microsoft SQL Server</p>
+                        <p>You can search for any icon and import it on your canvas. Once you've placed it and it's resized the way you like.</p>
+                    </div>
+                    <div class="skill--detail-item col l-2-4 m-3">
+                        <i class="fa-brands fa-windows"></i>
+                        <p class="skill-detail--title">.Net MVC</p>
+                        <p>You can search for any icon and import it on your canvas. Once you've placed it and it's resized the way you like.</p>
+                    </div>
+                    <div class="skill--detail-item col l-2-4 m-3">
+                        <i class="fa-brands fa-windows"></i>
+                        <p class="skill-detail--title">.Net Api</p>
+                        <p>You can search for any icon and import it on your canvas. Once you've placed it and it's resized the way you like.</p>
+                    </div>
+                    <div class="skill--detail-item col l-2-4 m-3">
+                        <i class="fa-brands fa-square-js"></i>
+                        <p class="skill-detail--title">Jquery/Ajax</p>
+                        <p>You can search for any icon and import it on your canvas. Once you've placed it and it's resized the way you like.</p>
+                    </div>
+                    <div class="skill--detail-item col l-2-4 m-3">
+                        <i class="fa-brands fa-bootstrap"></i>
+                        <p class="skill-detail--title">Bootstrap</p>
+                        <p>You can search for any icon and import it on your canvas. Once you've placed it and it's resized the way you like.</p>
+                    </div>
+                    <div class="skill--detail-item col l-2-4 m-3">
+                        <i class="fa-brands fa-php"></i>
+                        <p class="skill-detail--title">Php</p>
+                        <p>You can search for any icon and import it on your canvas. Once you've placed it and it's resized the way you like.</p>
+                    </div>
+                    <div class="skill--detail-item col l-2-4 m-3">
+                        <i class="fa-brands fa-java"></i>
+                        <p class="skill-detail--title">Java Swing</p>
+                        <p>You can search for any icon and import it on your canvas. Once you've placed it and it's resized the way you like.</p>
+                    </div>
+                    <div class="skill--detail-item col l-2-4 m-3">
+                        <i class="fa-brands fa-figma"></i>
+                        <p class="skill-detail--title">Figma</p>
+                        <p>You can search for any icon and import it on your canvas. Once you've placed it and it's resized the way you like.</p>
+                    </div>
+                </div>
+                <div class="skill--detail-list skill--detail-soft-list row">
+                    <div class="skill--detail-item col l-2-4 m-3">
+                        <i class="fa-solid fa-language"></i>
+                        <p class="skill-detail--title">IELTS 6.5</p>
+                        <p>You can search for any icon and import it on your canvas. Once you've placed it and it's resized the way you like.</p>
+                    </div>
+                    <div class="skill--detail-item col l-2-4 m-3">
+                        <i class="fa-solid fa-bolt"></i>
+                        <p class="skill-detail--title">Briskness</p>
+                        <p>You can search for any icon and import it on your canvas. Once you've placed it and it's resized the way you like.</p>
+                    </div>
+                    <div class="skill--detail-item col l-2-4 m-3">
+                        <i class="fa-solid fa-clock"></i>
+                        <p class="skill-detail--title">Diligence</p>
+                        <p>You can search for any icon and import it on your canvas. Once you've placed it and it's resized the way you like.</p>
+                    </div>
+                    <div class="skill--detail-item col l-2-4 m-3">
+                        <i class="fa-solid fa-people-group"></i>
+                        <p class="skill-detail--title">Teamwork</p>
+                        <p>You can search for any icon and import it on your canvas. Once you've placed it and it's resized the way you like.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project" id="project">
+                <div class="grid wide">
+                    <div class="project--header">
+                        <div>
+                            <p class="sub-title">PROJECT</p>
+                            <h1 class="project--title">My Project</h1>
+                        </div>
+                        <div class="project__btn">
+                            <a target="_blank" href="https://www.youtube.com/channel/UCyK6v3wVuhNz0EMI9fAHrsw"><button class="project--header-btn">Youtube Chanel</button></a>
+                        </div>
+                    </div>
+                    <div class="project-list row">
+                        <div class="project-item l-4 m-6">
+                            <img class="project-detail-img" src="assets/img/figma.png" alt="">
+                            <p class="project-detail-title">Figma UI Design</p>
+                            <a target="_blank" href="https://www.figma.com/team_invite/redeem/YBjH13ohvMWogZYmjilBHn" class="project-detail-view">View more <i class="fa-solid fa-angles-right"></i></a>
+                        </div>
+                        <div class="project-item l-4 m-6">
+                            <img class="project-detail-img" src="assets/img/projectImg.jpg" alt="">
+                            <p class="project-detail-title">(C#) MB Document Selling</p>
+                            <a href="" class="project-detail-view">View more <i class="fa-solid fa-angles-right"></i></a>
+                        </div>
+                        <div class="project-item l-4 m-6">
+                            <img class="project-detail-img" src="assets/img/projectImg.jpg" alt="">
+                            <p class="project-detail-title">(C#) English Center</p>
+                            <a href="" class="project-detail-view">View more <i class="fa-solid fa-angles-right"></i></a>
+                        </div>
+                        <div class="project-item l-4 m-6">
+                            <img class="project-detail-img" src="assets/img/phpproject.png" alt="">
+                            <p class="project-detail-title">(Php) English Center</p>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=FbASLDAEDXM" class="project-detail-view">View more <i class="fa-solid fa-angles-right"></i></a>
+                        </div>
+                        <div class="project-item l-4 m-6">
+                            <img class="project-detail-img" src="assets/img/projectImg.jpg" alt="">
+                            <p class="project-detail-title">(Java Swing) Garage Management</p>
+                            <a href="" class="project-detail-view">View more <i class="fa-solid fa-angles-right"></i></a>
+                        </div>
+                        <div class="project-item l-4 m-6">
+                            <img class="project-detail-img" src="assets/img/projectImg.jpg" alt="">
+                            <p class="project-detail-title">English Center project</p>
+                            <a href="" class="project-detail-view">View more <i class="fa-solid fa-angles-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="project-pagination">
+                        <ul>
+                            <li class="active"></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact" id="contact">
+                <h1 class="contact--title">CONTACT ME</h1>
+                <div class="contact-img__container row">
+                    <div class="contact-imgs l-3 l-o-1">
+                        <img src="assets/img/6caf9a5e658eaad0f39f.jpg" alt="">
+                        <img src="assets/img/beauti (2).jpg" alt="">
+                        <img src="assets/img/minh1.jpg" alt="">
+                        <img src="assets/img/sea.jpg" alt="">
+                    </div>
+                    <form class="contact-form l-7 m-12">
+                        <div class="contact-form__input">
+                            <input type="text" placeholder="Your name" name="" id="">
+                            <input type="text" placeholder="Your email" name="" id="">
+                            <input type="text" placeholder="Your message" name="" id="">
+                        </div>
+                        <div class="contact-form__submit">
+                            <input class="contact-form__submit-btn" type="submit" value="Send">
+                        </div>
+                    </form>
+                </div>
+                <div class="row">
+                    <div class="contact-logos l-3 l-o-1">
+                        <a target="_blank" href="https://www.facebook.com/bmint1709/"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a target="_blank" href="https://github.com/Bminh1709"><i class="fa-brands fa-square-github"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/minh-bui-166979272/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="circle-1"></div>
+        <div class="circle-2">Thank for being here!</div>
+    </div>
+</body>
+<script src="assets/js/main.js" type="text/javascript"></script>
+</html>

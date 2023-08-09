@@ -1,0 +1,89 @@
+/* PC */
+@media (min-width: 1023px) {
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .header__list-item {
+        width: 60%;
+    }
+    .circle-1,
+    .circle-2 {
+        display: none;
+    }
+    .about {
+        padding: 60px 0px;
+    }
+    .about--back-photo {
+        margin: auto;
+    }
+    .about--info-detail {
+        width: 100%;
+    }
+    .contact-imgs {
+        display: none;
+    }
+    .contact-form__input input {
+        width: 100%;
+    }
+    .contact-form__submit {
+        width: unset;
+    }
+    .contact-logos {
+        margin: auto;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .header__list-item {
+        display: none;
+    }
+    .resposive-header__icon {
+        width: 100%;
+        flex-direction: row-reverse;
+        display: flex;
+    }
+    .resposive-header__icon i {
+        margin-right: 16px;
+        font-size: 24px;
+    }
+    .about--info-detail .info-detail-2 {
+        display: none;
+    }
+    .project__btn {
+        display: none;
+    }
+    .circle-1,
+    .circle-2 {
+        display: none;
+    }
+    .contact-imgs {
+        display: none;
+    }
+    .contact-form {
+        margin: auto;
+    }
+    .contact-form__input input {
+        width: 100%;
+    }
+    .contact-logos {
+        margin: auto;
+        padding-top: 20px;
+    }
+    .contact-form__submit {
+        width: unset;
+    }
+}
+
+/* Exception for about */
+@media (max-width: 1238px) {
+    .about--photo {
+        height: 500px;
+        width: 300px;
+        object-fit: cover;
+    }
+    .about {
+        padding: 60px 0px;
+    }
+}
