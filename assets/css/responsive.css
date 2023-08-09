@@ -74,6 +74,9 @@
     .contact-form__submit {
         width: unset;
     }
+    .project-item {
+        width: 60%;
+    }
 }
 
 /* Exception for about */

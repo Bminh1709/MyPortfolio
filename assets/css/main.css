@@ -352,6 +352,22 @@ body {
     height: 250px;
     padding: 25px 15px;
 }
+.project-detail-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.project-detail-container-2 {
+    position: relative;
+    margin-right: 10px;
+}
+.fa-circle-info {
+    color: #888;
+    font-size: 20px;
+}
+.fa-circle-info:hover {
+    color: var(--white-color);
+}
 .project-detail-title {
     margin: 10px 0px 0px;
 }
@@ -362,6 +378,22 @@ body {
 }
 .project-detail-view i {
     font-size: 11px;
+}
+.project-list-details {
+    position: absolute;
+    list-style: none;
+    right: 25px;
+    bottom: -10px;
+    background-color: #505050d6;
+    padding: 12px;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    white-space: nowrap;
+    display: none;
+}
+.project-detail-container-2:hover .project-list-details {
+    display: block;
 }
 .project-pagination {
     margin-top: 60px;
