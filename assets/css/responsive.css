@@ -90,3 +90,9 @@
         padding: 60px 0px;
     }
 }
+
+@media (max-width: 610px) {
+    .project-item {
+        width: 85% !important;
+    }
+}
